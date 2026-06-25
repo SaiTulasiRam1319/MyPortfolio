@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<style>
+.body1 img{
+    padding: 6px;
+    border-radius: 15px;
+    /* transition: transform 0.9s ease;   */
+}
+/* .body1 img:hover{
+    transform: scale(1.05);
+} */
+
+.services{
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        transition: transform 0.5s ease;
+        border-radius: 15px;
+        width: 280px;
+        margin-left: 50px;
+        }
+.services:hover{
+        transform: scale(1.05);
+}
+.card body{
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        border: 1px solid black;
+        border-radius: 10px;
+    /* width: 200px; */
+    /* height: 180px; */
+        }
+.skills{
+    box-shadow: 2px 2px 6px 6px rgba(0,0,0,0.3);
+    transition: transform 0.5s ease;
+    border-radius: 15px;
+    margin: 10px 45px 30px 45px  ;
+    padding: 10px 20px 10px 20px;
+    }
+.skills:hover{
+        transform: scale(1.05);
+            }
+ input[type="text"],input[type="email"]{
+        border-radius: 10px;
+        background-color: lightpink
+        }
+ textarea{
+        border-radius: 10px;
+        background-color: lightpink;
+        }
+       i{
+        cursor: pointer;
+        transform: rotate(0deg);
+        transition-timing-function: ease;
+        transition-duration: 1s;
+         }
+ i:hover{
+        cursor: pointer;
+        transform: rotate(-30deg);
+        transition-timing-function: ease;
+        transition-duration: 1s;
+       }
+
+</style>
+</head>
+<body>
+    
+<header class="navbar navbar-expand-md navbar-light bg-light py-3">
+    <div class="container" >
+        <span class="navbar-brand fw-bold" style="font-family: 'Brush Script MT', cursive; font-size: 40px;">Sai Tulasi Ram</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            </ul>
+            <a href="CV.pdf" class="btn btn-success ms-lg-3" download>Download CV</a>
+        </div>
+    </div>
+</header>
+
+<!-- INTRODUCTION -->
+<div class="bg-light">
+<section class="container p-5">
+<div class="row align-items-center">
+    <div class="col-lg-6 col-md-6 col-12 text-center text-md-start">
+        <p class="lead text-warning">- INTRODUCTION</p>
+        <p>Hi There! 👋🏼</p>
+        <h2 style="font-family:'Brush Script MT', cursive;">
+            I'm <span class="text-warning">Sai Tulasi Ram</span>
+        </h2>
+        <p>I help startups create stunning websites that make impact.</p>
+        <div id="awsomewebsite">
+        <a href="#"><button class="btn btn-warning rounded-pill mt-2">Let's create an awesome website!</button></a>
+        </div>
+
+        <div class="mt-4">
+            <a href="https://www.linkedin.com/in/bandaru-sai-tulasi-ram-0635b4343" class="text-dark"><i class="fa-brands fa-linkedin fs-1 m-2"></i></a>
+            <a href="https://www.hackerrank.com/profile/saitulasiram_506" class="text-dark"><i class="fa-brands fa-hackerrank fs-1 m-2"></i></a>
+            <a href="https://github.com/SaiTulasiRam1319" class="text-dark"><i class="fa-brands fa-github fs-1 m-2 "></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-12 text-center mt-4 mt-md-0">
+        <img src="https://png.pngtree.com/png-vector/20240905/ourmid/pngtree-3d-cartoon-male-half-body-transparent-background-png-image_13759328.png" class="img-fluid">
+    </div>
+</div>
+</section>
+</div>
+
+
+<!-- PROJECTS -->
+<div id="projects">
+<section class="container mt-5">
+<p class="lead text-danger">- PROJECTS</p>
+<h4>FEATURED WORK</h4>
+<p>I love making websites that grow big and solve real problems.</p>
+<div class="row body1">
+    <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <img src="https://fpt.ai/wp-content/uploads/2025/06/Will-artificial-intelligence-surpass-human-intelligence.webp" class="img-fluid">
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1SwkCJ.img" class="img-fluid">
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1TyubI.img" class="img-fluid">
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1TJV8k.img?w=948&h=632&q=60&m=2&f=jpg" class="img-fluid">
+    </div>
+
+     <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1TynUQ.img?w=1012&h=569&m=6" class="img-fluid">
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1TzGdu.img?w=624&h=351&q=100&m=6&f=webp&u=t" class="img-fluid">
+    </div>
+</div>
+</section>
+</div>
+
+<!-- SERVICES -->
+ <div id="services">
+<section class="mt-5 py-5" style="background-color:bisque;">
+<div class="container">
+<p class="lead text-danger">- SERVICES</p>
+<h4>SERVICES I PROVIDE</h4>
+<p>The goal is not to build a website. The goal is to build your business.</p>
+
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+        <div class="services card p-3 h-100">
+            <i class="fa-solid fa-bezier-curve fs-1 mb-3"></i>
+            <h5>UI/UX Design</h5>
+            <p>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+        <div class="services card p-3 h-100">
+            <i class="fa-solid fa-globe fs-1 mb-3"></i>
+            <h5>Web Development</h5>
+            <p>I use various web technologies to develop attractive websites which converts visitors to customers. I develop creative and responsive website layouts.</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+        <div class="services card p-3 h-100">
+            <i class="fa-brands fa-wordpress fs-1 mb-3"></i>
+            <h5>WordPress</h5>
+            <p>WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database with supported HTTPs.</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+        <div class=" services card p-3 h-100">
+            <i class="fa-brands fa-google fs-1 mb-3"></i>
+            <h5>Google Ads</h5>
+            <p>Grow your business with Google Ads · Get in front of customers when they're searching for businesses like yours on Google Search and Maps.</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+ </div>
+
+ 
+<!-- SKILLS -->
+<section  class="mt-5 py-5 bg-light" >
+    <div class="container">
+        <p class="lead text-danger">-SKILLS</p>
+        <h4>AREA OF EXPERTISE</h4>
+        <p>Let's kickstart your project and collaborate to build something amazing.I'll bring my skills to make your next project shine.</p>
+
+        <div class="d-flex justify-content-center flex-wrap ms-1 me-1 mb-1">
+
+            <div class=" skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/html.png" class="card-image-top mt-4 mb-2 " height="70px" width="70px">
+                <div class="title p-2">HTML</div>
+                </div>
+            </div>
+
+            <div class=" skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/css.png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">CSS</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/javascript%20(1).png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">JAVASCRIPT</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/Bootstrap%201.png" class="card-image-top mt-4 mb-2 " height="70px" width="70px">
+                <div class="title p-2">BOOTSTRAP</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/node-js.png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">Node.js</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/react%20(2).png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">React</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/git%20(2).png" class="card-image-top mt-4 mb-2 " height="70px" width="70px">
+                <div class="title p-2">Git</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/github%20(7).png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">GitHub</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/adobe-xd.png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">Adobe XD</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/photoshop.png" class="card-image-top mt-4 mb-2 " height="70px" width="70px">
+                <div class="title p-2">Photoshop</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/icons8-figma-512.png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">Figma</div>
+                </div>
+            </div>
+
+            <div class="skills card d-flex justify-content-center">
+                <div class="body text-center" style="width: 180px;">
+                <img src="https://iamdivyak.netlify.app/img/WordPress.png" class="card-image-top mt-4 mb-2" height="70px" width="70px">
+                <div class="title p-2">WordPress</div>
+                </div>
+            </div>
+        </
+        div>
+    </div>
+</section>
+
+<!-- HAVE A PROJECT IN MIND -->
+<section class="text-center m-5"style="background-color:bisque;">
+    <div class="pt-4 fs-1 pb-2"><h2>HAVE A PROJECT IN MIND?</h2></div>
+    <p>Turn your dream website into reality with us. Let's get started!</p>
+    <a href="#awsomewebsite"><button class="btn btn-warning  m-4">Let's create an awesome website</button></a>
+</section>
+
+
+<!-- ABOUT -->
+<div id="about">
+  <section class="py-5" style="background-color: bisque;">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 col-md-12 mb-4 text-center text-lg-start">
+          <p class="lead text-danger mb-1">- ABOUT</p>
+          <h4 class="mb-3">ABOUT ME</h4>
+          <p>I'm Sai Tulasi Ram, a junior Web Designer with front-end development skills.I'm enthusiastic about using my varied experiences to solve complex problems and craft enjoyable user experiences.</p>
+          <p>I develop websites with HTML, CSS, and JavaScript. I have strong skills in design tools like Figma, Adobe XD, and Photoshop. </p>
+
+          <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-4">
+            <button class="btn btn-danger">HIRE ME</button>
+            <a href="CV.pdf" class="btn btn-success" download>Download CV</a>
+          </div>
+        </div>
+
+<!-- Image -->
+    <div class="col-lg-6 col-md-12 text-center">
+    <img src="https://iamdivyak.netlify.app/img/Girl%20is%20working%20on%20laptop%20at%20a%20remote%20job.png" class="img-fluid" alt="Working illustration" style="max-width: 350px;">
+    </div>
+    </div>
+    </div>
+  </section>
+</div>
+
+
+<!-- CONTACT US -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-start">
+
+<!-- Left Content -->
+    <div class="col-lg-6 col-md-12 mb-4">
+        <p class="lead text-danger">- CONTACT US</p>
+        <h4>GET IN TOUCH</h4>
+        <p>I'm here and ready to bring your project ideas to life. Just a click away! </p>
+        <p><i class="fa-solid fa-envelope fs-4 me-2"></i>saitulasirambandaru@gmail.com</p>
+
+    <div class="mt-4">
+        <a href="https://www.linkedin.com/in/bandaru-sai-tulasi-ram-0635b4343" class="text-dark me-3" style="text-decoration: none;"><i class="fa-brands fa-linkedin fs-1"></i></a>
+        <a href="https://www.hackerrank.com/profile/saitulasiram_506" class="text-dark me-3" style="text-decoration: none;"><i class="fa-brands fa-hackerrank fs-1"></i></a>
+        <a href="https://github.com/SaiTulasiRam1319" class="text-dark"><i class="fa-brands fa-github fs-1"></i></a>
+    </div>
+    </div>
+
+      <!-- Right Form -->
+      <div class="col-lg-6 col-md-12">
+        <form class="p-3">
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Full Name" >
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Message" style="background-color: lightpink"></textarea>
+          </div>
+        <button type="submit" class="btn btn-danger w-30">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-1 bg-light">
+  <div class="container">
+    <div class="row align-items-start text-center text-lg-start">
+
+      <!-- Profile Info -->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <h2 style="font-family:'Brush Script MT', cursive;">
+          <span class="text-dark px-2">Sai Tulasi Ram</span>
+        </h2>
+        <p>I’m Sai Tulasi Ram, a junior and talented Web Designer with front end development skills.</p>
+        <hr>
+        <p><i class="fa-solid fa-envelope fs-4 me-2"></i>saitulasirambandaru@gmail.com</p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-lg-3 col-md-12 mb-4">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media Icons -->
+    <div class="col-lg-3 col-md-12">
+        <div class="d-flex justify-content-center justify-content-lg-start gap-3" style="display: flex; flex-wrap: nowrap;flex-direction: column;">
+          <a href="https://www.linkedin.com/in/bandaru-sai-tulasi-ram-0635b4343" class="text-dark"><i class="fa-brands fa-linkedin fs-2"></i></a>
+          <a href="https://www.hackerrank.com/profile/saitulasiram_506" class="text-dark"><i class="fa-brands fa-hackerrank fs-2"></i></a>
+          <a href="https://github.com/SaiTulasiRam1319" class="text-dark"><i class="fa-brands fa-github fs-2"></i></a>
+        </div>
+      </div>
+     </div>
+  </div>
+</section>
+</body>
+
+
+
+
+
+
+
